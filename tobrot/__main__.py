@@ -131,7 +131,7 @@ if __name__ == "__main__" :
     #
     clear_thumb_nail_handler = MessageHandler(
         clear_thumb_nail,
-        filters=Filters.command(["clearthumbnail@movietabefilee_bott"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["clearthumbnail@movietabefilee_bot"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(clear_thumb_nail_handler)
     #
